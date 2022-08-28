@@ -29,9 +29,14 @@ class HashTable:
             if item[0] == key:
                 return item[1]
         
+def main():
+    square = HashTable(size=2)
+    square.insert("color", "blue")
+    square.insert("side", "4")
+    square.insert("name", "Timmy")
+    print(square.find("name"))
+    
+if __name__ == "__main__":
+    main()
 
-# square = HashTable(size=2)
-# square.insert("color", "blue")
-# square.insert("side", "4")
-# square.insert("name", "Timmy")
-# print(square.find("name"))
+
