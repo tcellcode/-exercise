@@ -9,12 +9,8 @@ class HashTable:
     def __repr__(self):
         return str(self.table)
         
-    def hash_func(self, key): # simple hash method :>
-        key = str(key)
-        res = ""
-        for ch in key:
-            res += str(ord(ch))
-        return int(res) % self.size
+    def hash_func(self, key):
+        return hash(key) % self.size # insert custom hash method here 
 
             
     def insert(self, key, value):
