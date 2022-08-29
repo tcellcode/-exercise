@@ -1,5 +1,5 @@
 // return a pointer to arr
-int *insertion_sort(int arr[], int arr_len, bool reverse = false){
+int* insertion_sort(int arr[], int arr_len, bool reverse = false){
     int temp;
     bool state;
     for (int i = 1; i < arr_len; i++){
