@@ -1,2 +1,2 @@
 # exercise
-All algorithms and data structure collected by me :>
+Just to save me time from scouring the internet 😅
